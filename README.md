@@ -13,8 +13,8 @@ body_mass_g ~ bill_length_mm + bill_depth_mm + flipper_length_mm + sex + island
 )
 4) pipe in the lm data to get our linear regression using the lm() function
 6) Create a summary model of the linear regression
-7) create a coefficients table that includes: variable, estimate, standard error, t)value, and p_value
-8) create a display to properly display this visualization
+7) create a coefficients table that includes: variable, estimate, standard error, t)value, and p_value (use coefficients_table <- data.frame([attributes here])
+8) create a display to properly display this visualization (using kableextra package)
 
 Results: 
 Many of the variables have negative coefficients. For instance, the island variables for Dream and Torgersen have negative coefficients. This could mean that Adelie penguins from these islands have smaller physical characteristics as compared to the average for Adelies from other islands.
